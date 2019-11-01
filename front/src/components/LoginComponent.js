@@ -8,8 +8,7 @@ export const Login = () => {
 
     const submitHandle = (event) => {
         event.preventDefault();
-        console.log(name);
-        localStorage.setItem('name', name);
+        localStorage.setItem('user', name);
         setRedirect(true);
     };
 
