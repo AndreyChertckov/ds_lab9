@@ -4,6 +4,8 @@ services:
   api:
     build: .
     image: wselfjes/ds9_api
+    volumes:
+      - /etc/hosts:/etc/hosts:ro
   front:
     build: front
     image: wselfjes/ds9_front
