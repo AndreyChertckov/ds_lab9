@@ -1,0 +1,32 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.message {
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    padding-left: 20px;
+}
+
+.messages {
+    height: 90vh;
+    display:block;
+    overflow-y: scroll;
+}
+
+#messageTextarea {
+    width: 95%;
+    height: 10vh;
+}
+
+#sendButton {
+    width: 5%;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+}
+
+#sendMessageForm {
+    display: flex;
+}
